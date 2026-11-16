@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+    //01. Cek bilangan positif, negatif, atau nol
+    let angka = -5;
+     
+    if(angka > 0) {
+        console.log("bilangan positif");
+    } else if (angka < 0) {
+        console.log("Bilangan Negatif");
+    } else {
+        console.log("Bilangan Nol");
+    }
+
+    //02. Tentukan bilangan terbesar dari tiga angka
+    let angka1 = 10;
+    let angka2 = 25;
+    let angka3 = 15;
+     
+    if (angka1 > angka2 && angka1 > angka3) {
+         console.log("Bilangan terbesar adalah: " + angka1);
+    } else if (angka2 > angka1 && angka2 > angka3) {
+         console.log("Bilangan terbesar adalah: " + angka2);
+    } else if (angka3 > angka1 && angka3 > angka2) {
+         console.log("Bilangan terbesar adalah: " + angka3);
+    } else {
+         console.log("Ada bilangan yang nilainya sama");
+    }
+
+    //03. Tampilkan nama hari dengan switch, angka 1-7
+    let hari = 3;
+
+    switch (hari) {
+        case 1:
+            console.log("Senin");
+            break;
+        case 2:
+            console.log("Selasa");
+            break;
+        case 3:
+            console.log("Rabu");
+            break;
+        case 4:
+            console.log("Kamis");
+            break;
+        case 5:
+           console.log("Jumat");
+           break;
+        case 6:
+           console.log("Sabtu");
+           break;
+        case 7:
+           console.log("Minggu");
+           break;
+           default:
+           console.log("Angka tidak valid!");
+    }
+
+  </script>  
+</body>
+</html>
